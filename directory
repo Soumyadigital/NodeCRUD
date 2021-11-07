@@ -1,8 +1,8 @@
                                          READ THE DIRECTORY CAREFULLY
                                          
 
-create .env file first ----> type this lines on that : SECRET_KEY = iwfuefnunuwefhuebfuqfuqfuqfb,
-                                                       PASS=<pass of your email id>
+create .env file first ----> type this lines on that : SECRET_KEY=uidwhunkmqkfoplbqjinfkqnjnkmkqsnkmqklnkonwdkon,
+                                                       PASS=digital1234
                                          
 
 The server file of our project is 'app.js'
