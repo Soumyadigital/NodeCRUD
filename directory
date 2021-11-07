@@ -1,0 +1,49 @@
+                                         READ THE DIRECTORY CAREFULLY
+                                         
+
+The server file of our project is 'app.js'
+The database created in mongodb to save the register acccount data is 'logindb'
+The main collection name of the database is registeruser
+We're using cookie , named 'jwt' to make auto login from same browser
+We hashed the password entered by the user , but we didn't hashed RepeatPassword to see the registered password for demo
+(if developers want to remove this they can remove RepeatPassword)
+
+Firstly go to app .js and paste your <email id> instead of <digitaldeveloper1234@gmail.com> in every place and give the pass of your email id
+
+This Project has APIs for--------
+
+i)Register acccount
+ii)Login to acccount(user have to verify email to login)
+iii)Logout from acccount
+iv)Reset password(user will receive a Reset password link on mail)
+
+
+We're using get and post for each feature-----
+
+i)Register acccount :  
+                    "/"(get)
+                    "/register"(post)
+ii)Login to acccount:
+                    "/login"(get and post)
+iii)Logout from acccount:
+                    "/logout"(get)
+iv)Reset password:
+                    "/forgotpassword"(get and post)
+                    "/resetpassword/:id/:token"(get and post)
+
+
+Read the "//comment line on the appp.js " to detect the sender address setting to send email 
+
+
+
+To run this project :
+
+ go to the terminal of this project
+ command : npm install -g nodemon
+         npm install
+         (make sure your system already installed mongodb and start it)
+         npm run dev
+
+Demo Video Link : https://youtu.be/gRvLMODvpks
+
+If you have any quieres you can say on whatsapp : 7450840695
