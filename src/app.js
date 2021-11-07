@@ -34,8 +34,8 @@ const transport = nodemailer.createTransport(             //sender address
     {
         service:"gmail",
         auth:{
-            user:"digitaldeveloper1234@gmail.com", //here you will paste your email
-            pass:process.env.PASS               //here is your email pass
+            user:"digitaldeveloper1234@gmail.com", //HERE YOU WILL PASTE YOUR EMAIL ID
+            pass:digital1234             //here is your email pass
         },
         tls:{
             rejectUnauthorized:false
