@@ -34,7 +34,7 @@ const transport = nodemailer.createTransport(             //sender address
     {
         service:"gmail",
         auth:{
-            user:"digitaldeveloper1234@gmail.com", //HERE YOU WILL PASTE YOUR EMAIL ID
+            user:"YOUREMAIL@gmail.com", //HERE YOU WILL PASTE YOUR EMAIL ID
             pass:process.env.PASS         //here is your email pass
         },
         tls:{
@@ -135,7 +135,7 @@ app.post("/register",async(req,res)=>{
 
     //sending verification email
     const mailOptions ={
-        from :'"verify your email" <digitaldeveloper1234@gmail.com>',             
+        from :'"verify your email" <YOUR EMAIL@gmail.com>',             
         subject :"Verify your email",
         to :registerUser.email,
         subject :"Verify your Email",
@@ -208,7 +208,7 @@ app.post("/forgotpassword",async(req,res,next)=>{
     res.send("see link");
     //sending verification email
          const mailOptions ={
-             from :'"Forgot password link" <digitaldeveloper1234@gmail.com>',               //here you can add multiple email address
+             from :'"Forgot password link" <YOUR EMAIL@gmail.com>',               //here you can add multiple email address
              subject :"Reset your password",
              to :dologin.email,
              subject :"Verify your Email",
