@@ -2,7 +2,7 @@
                                          
 
 create .env file first ----> type this lines on that : SECRET_KEY=uidwhunkmqkfoplbqjinfkqnjnkmkqsnkmqklnkonwdkon,
-                                                       PASS=digital1234
+                                                       PASS=<YOUR PASS HERE>
                                          
 
 The server file of our project is 'app.js'
